@@ -1,0 +1,9 @@
+{
+  "name": "KeqingMoe/ucd_fetch",
+  "deps": {
+    "moonbitlang/async": "0.8.1",
+    "moonbitlang/regexp": "0.3.2",
+    "moonbitlang/x": "0.4.34"
+  },
+  "preferred-target": "native"
+}

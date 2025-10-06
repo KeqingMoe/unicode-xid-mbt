@@ -1,0 +1,10 @@
+{
+  "import": [
+    "moonbitlang/async",
+    "moonbitlang/async/io",
+    "moonbitlang/async/http",
+    "moonbitlang/regexp",
+    "moonbitlang/x/fs"
+  ],
+  "is-main": true
+}

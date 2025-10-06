@@ -1,0 +1,13 @@
+{
+  "name": "KeqingMoe/unicode_xid",
+  "version": "0.0.1",
+  "deps": {},
+  "readme": "README.mbt.md",
+  "repository": "https://github.com/KeqingMoe/unicode-xid-mbt",
+  "license": "MIT",
+  "keywords": [
+    "Unicode",
+    "Unicode XID"
+  ],
+  "description": "Unicode XID"
+}
