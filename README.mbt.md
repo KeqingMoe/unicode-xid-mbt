@@ -20,6 +20,7 @@ moon run .
 ## 例子
 
 ```moonbit
+///|
 test {
   let v = @unicode_xid.version
   println("Unicode Version: \{v.0}.\{v.1}.\{v.2}")
