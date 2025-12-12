@@ -1,7 +1,10 @@
+///|
 pub let version = (17, 0, 0)
 
-pub typealias Array[(Char, Char)] as Table
+///|
+pub type Table = Array[(Char, Char)]
 
+///|
 pub let xid_starts : Table = [
   ('\u{0041}', '\u{005A}'),
   ('\u{0061}', '\u{007A}'),
@@ -784,6 +787,7 @@ pub let xid_starts : Table = [
   ('\u{31350}', '\u{33479}'),
 ]
 
+///|
 pub let xid_continues : Table = [
   ('\u{0030}', '\u{0039}'),
   ('\u{0041}', '\u{005A}'),
@@ -2208,4 +2212,3 @@ pub let xid_continues : Table = [
   ('\u{31350}', '\u{33479}'),
   ('\u{E0100}', '\u{E01EF}'),
 ]
-

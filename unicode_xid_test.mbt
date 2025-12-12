@@ -1,7 +1,10 @@
+///|
 test "version" {
   let _ = @unicode_xid.version
+
 }
 
+///|
 test "start" {
   for ch in "Az啊" {
     assert_eq(@unicode_xid.is_xid_start(ch), true)
@@ -11,6 +14,7 @@ test "start" {
   }
 }
 
+///|
 test "continue" {
   for ch in "Az啊_0" {
     assert_eq(@unicode_xid.is_xid_continue(ch), true)

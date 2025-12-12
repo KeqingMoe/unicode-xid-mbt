@@ -1,0 +1,23 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "KeqingMoe/unicode_xid"
+
+// Values
+pub fn is_xid_continue(Char) -> Bool
+
+pub fn is_xid_start(Char) -> Bool
+
+pub let version : (Int, Int, Int)
+
+pub let xid_continues : Array[(Char, Char)]
+
+pub let xid_starts : Array[(Char, Char)]
+
+// Errors
+
+// Types and methods
+
+// Type aliases
+pub type Table = Array[(Char, Char)]
+
+// Traits
+
